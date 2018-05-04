@@ -8,6 +8,8 @@ public class Calculator {
 		operations = new HashMap<>();
 		operations.put("+", (x, y) -> (x + y));
 		operations.put("-", (x, y) -> (x - y));
+		operations.put("*", (x, y) -> (x * y));
+		operations.put("/", (x, y) -> (x / y));
 
 	}
 
